@@ -1,28 +1,28 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <LPHeader />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import LPHeader from "./components/LPHeader.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    LPHeader,
   },
 };
 </script>
 
 <style lang="scss">
+@import "./style/commonStyle.scss";
+@import "./style/variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Ubuntu", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: $text-color;
 }
 </style>
