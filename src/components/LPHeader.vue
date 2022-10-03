@@ -18,16 +18,16 @@
 
       <div class="collapse navbar-collapse" id="navNav">
         <ul class="navbar-nav row w-100">
-          <li class="nav-item offset-lg-2 col-lg-2">
+          <li class="nav-item padding-x-lg offset-lg-2 col-lg-2">
             <a class="nav-link" href="#"><span>Home</span></a>
           </li>
-          <li class="nav-item col-lg-2">
+          <li class="nav-item padding-x-lg col-lg-2">
             <a class="nav-link" href="#"><span>About</span></a>
           </li>
-          <li class="nav-item col-lg-2">
+          <li class="nav-item padding-x-lg col-lg-2">
             <a class="nav-link" href="#"><span>Skills</span></a>
           </li>
-          <li class="nav-item col-lg-2">
+          <li class="nav-item padding-x-lg col-lg-2">
             <a class="nav-link" href="#"><span>Link</span></a>
           </li>
         </ul>
